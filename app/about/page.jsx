@@ -1,3 +1,5 @@
+import Timer from "./timer";
+
 export default function AboutPage() {
   return (
     <>
@@ -6,6 +8,9 @@ export default function AboutPage() {
         chantastic's is building a creative coding community
         around curiosity and kindness.
       </p>
+      <span>
+        This time is from a a client component: <Timer />
+      </span>
     </>
   );
 }
